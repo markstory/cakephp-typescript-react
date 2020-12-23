@@ -6,6 +6,12 @@
 /tmp/*
 /vendor/*
 
+# Build output from webpack #
+#############################
+/webroot/css/app.css
+/webroot/js/app.js
+/webroot/mix-manifest.json
+
 # OS generated files #
 ######################
 .DS_Store
