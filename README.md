@@ -10,16 +10,6 @@ An application skeleton for creating applications with
 3. Run `php composer.phar create-project --prefer-dist markstory/cakephp-typescript-react [app_name]`.
 4. Install nodejs dependencies with `npm install` or `yarn install`.
 
-## Running the local PHP server
-
-You can run the local PHP server with:
-
-    bin/cake server
-
-And then visit this server at `http://localhost:8765`. Using another webserver
-is possible, but you will need to further configure `mix` to know about the subdirectory
-your application is running in.
-
 ## Frontend Assets
 
 Unlike typical CakePHP applications, the frontend assets in this skeleton live
@@ -46,3 +36,15 @@ When it comes time to deploy your application to production you should use:
 The above will generate minified assets and *not* generate sourcemaps. Ideally
 the above command is generated during your deploy process, or when you build the
 artifacts you are going to deploy.
+
+## Running the local PHP server
+
+You can run the local PHP server with:
+
+    bin/cake server
+
+And then visit this server at `http://localhost:8765`. Using another webserver
+is possible, but you will need to further configure `mix` to know about the subdirectory
+your application is running in. If you have built the frontend using webpack you
+can view `http://localhost:8765/pages/greet` to see a the result of a PHP template
+that also renders react components.
