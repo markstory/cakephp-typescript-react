@@ -6,7 +6,7 @@ An application skeleton for creating applications with
 ## Installation
 
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Ensure youh 
+2. Ensure youh
 3. Run `php composer.phar create-project --prefer-dist markstory/cakephp-typescript-react [app_name]`.
 4. Install nodejs dependencies with `npm install` or `yarn install`.
 
@@ -31,7 +31,7 @@ Source maps will be available in watch mode.
 
 When it comes time to deploy your application to production you should use:
 
-    yarn run build
+    yarn run prod
 
 The above will generate minified assets and *not* generate sourcemaps. Ideally
 the above command is generated during your deploy process, or when you build the
