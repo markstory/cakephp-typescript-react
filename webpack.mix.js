@@ -17,7 +17,6 @@ mix
       },
     },
   })
-  .setPublicPath('./webroot')
   .ts('assets/js/app.tsx', 'webroot/js')
   .sass('assets/sass/app.scss', 'webroot/css')
   .sourceMaps()
