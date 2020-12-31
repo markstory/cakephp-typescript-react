@@ -37,6 +37,19 @@ The above will generate minified assets and *not* generate sourcemaps. Ideally
 the above command is generated during your deploy process, or when you build the
 artifacts you are going to deploy.
 
+## Running tests
+
+This application skeleton includes setup for PHPUnit to do serverside testing
+& jest + testing-library/react to do frontend tests.
+
+You can run PHPUnit with:
+
+    composer test
+
+And jest with:
+
+    yarn test
+
 ## Running the local PHP server
 
 You can run the local PHP server with:
@@ -48,3 +61,6 @@ is possible, but you will need to further configure `mix` to know about the subd
 your application is running in. If you have built the frontend using webpack you
 can view `http://localhost:8765/pages/greet` to see a the result of a PHP template
 that also renders react components.
+
+
+
