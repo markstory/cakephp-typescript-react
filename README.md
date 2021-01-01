@@ -5,8 +5,8 @@ An application skeleton for creating applications with
 
 ## Installation
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Ensure youh
+1. Ensure you have nodejs installed.
+2. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 3. Run `php composer.phar create-project --prefer-dist markstory/cakephp-typescript-react [app_name]`.
 4. Install nodejs dependencies with `npm install` or `yarn install`.
 
