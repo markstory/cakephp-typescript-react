@@ -5,6 +5,7 @@
 /logs/*
 /tmp/*
 /vendor/*
+/node_modules/*
 
 # Build output from webpack #
 #############################
