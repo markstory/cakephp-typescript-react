@@ -20,7 +20,7 @@ your application will use. These source files are compiled into assets stored in
 
 ## Running webpack
 
-This skeleton uses [mix](https://laravel-mix.com/docs/6.0/installation) as
+This skeleton uses [Laravel Mix](https://laravel-mix.com/docs/6.0/installation)(via [AssetMix](https://github.com/ishanvyas22/asset-mix) plugin) as
 a high-level wrapper around webpack to build the typescript/react & sass assets.
 For local development you'll generally want to run webpack in 'watch' mode:
 
