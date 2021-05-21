@@ -1,6 +1,6 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
+    "name": "markstory/cakephp-typescript-react",
+    "description": "An application skeleton for creating applications with CakePHP 4.x, typescript and react.",
     "homepage": "https://cakephp.org",
     "type": "project",
     "license": "MIT",
