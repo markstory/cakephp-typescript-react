@@ -9,7 +9,7 @@ axios.defaults.xsrfCookieName = 'csrfToken';
 axios.defaults.xsrfHeaderName = 'X-Csrf-Token';
 
 // Load components in the application.
-import Greet from 'app/components/Greet';
+import Greet from 'app/components/greet';
 
 // Simple render setup that outputs a react 'application' into the DOM.
 // For more robust setups, consider using a library like react-router

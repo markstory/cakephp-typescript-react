@@ -1,7 +1,7 @@
 # CakePHP + Typescript + React Application Skeleton
 
 An application skeleton for creating applications with
-[CakePHP](https://cakephp.org) 4.x, typescript and react.
+[CakePHP](https://cakephp.org) 5.x, typescript and react.
 
 ## Installation
 
@@ -24,14 +24,14 @@ This skeleton uses [Laravel Mix](https://laravel-mix.com/docs/6.0/installation)(
 a high-level wrapper around webpack to build the typescript/react & sass assets.
 For local development you'll generally want to run webpack in 'watch' mode:
 
-    yarn run watch
+    npm run watch
 
 In watch mode, webpack will watch the filesystem for changes and recompile as necessary.
 Source maps will be available in watch mode.
 
 When it comes time to deploy your application to production you should use:
 
-    yarn run prod
+    npm run prod
 
 The above will generate minified assets and *not* generate sourcemaps. Ideally
 the above command is generated during your deploy process, or when you build the
@@ -48,7 +48,7 @@ You can run PHPUnit with:
 
 And jest with:
 
-    yarn test
+    npm run test
 
 ## Running the local PHP server
 
@@ -61,6 +61,3 @@ is possible, but you will need to further configure `mix` to know about the subd
 your application is running in. If you have built the frontend using webpack you
 can view `http://localhost:8765/pages/greet` to see a the result of a PHP template
 that also renders react components.
-
-
-

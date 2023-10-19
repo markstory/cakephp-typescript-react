@@ -142,7 +142,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                         <?php
                         try {
                             $connection = ConnectionManager::get('default');
-                            $connected = $connection->connect();
+                            $connected = $connection->getDriver()->connect();
                         } catch (Exception $connectionError) {
                             $connected = false;
                             $errorMsg = $connectionError->getMessage();
